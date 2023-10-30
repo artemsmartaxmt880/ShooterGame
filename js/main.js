@@ -9,7 +9,7 @@ const collisionCtx = collisionCanvas.getContext('2d', { willReadFrequently: true
 collisionCanvas.width = window.innerWidth;
 collisionCanvas.height = window.innerHeight;
 
-const backgrounds = ['../img/1.jpg', '../img/2.png', '../img/3.png', '../img/4.jpg', '../img/5.jpg',];
+const backgrounds = ['../img/bg1.jpg', '../img/bg2.png', '../img/bg3.png', '../img/bg4.jpg', '../img/bg5.jpg',];
 document.querySelector('body').style = 'background: url(' + backgrounds[Math.floor(Math.random() * backgrounds.length)] + ') center/cover no-repeat';
 const over = new Image();
 over.src = './img/over.png'
